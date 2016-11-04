@@ -1,0 +1,22 @@
+{"xref": {
+  "whenMade": 1478281254219,
+  "createdBy": "JBehave",
+  "metaFilter": "-ignore",
+  "meta": [],
+  "stories": [
+    {
+      "description": "",
+      "narrative": "",
+      "name": "firstLaunch.story",
+      "path": "smartHouse/stories/firstLaunch.story",
+      "html": "smartHouse.stories.firstLaunch.html",
+      "meta": "",
+      "scenarios": "Scenario:testFirstLaunch\nGiven the user is on the smartHouse dashBoard page\nWhen the user clicks on devices tab\nThen list of existing devices is opened on devices tab\n\n\n",
+      "passed": true,
+      "pending": false,
+      "started": 1478281230836,
+      "duration": 22503
+    }
+  ],
+  "stepMatches": []
+}}

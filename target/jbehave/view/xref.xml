@@ -1,0 +1,28 @@
+<xref>
+  <whenMade>1478281254219</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter>-ignore</metaFilter>
+  <meta/>
+  <stories>
+    <story>
+      <description></description>
+      <narrative></narrative>
+      <name>firstLaunch.story</name>
+      <path>smartHouse/stories/firstLaunch.story</path>
+      <html>smartHouse.stories.firstLaunch.html</html>
+      <meta></meta>
+      <scenarios>Scenario:testFirstLaunch
+Given the user is on the smartHouse dashBoard page
+When the user clicks on devices tab
+Then list of existing devices is opened on devices tab
+
+
+</scenarios>
+      <passed>true</passed>
+      <pending>false</pending>
+      <started>1478281230836</started>
+      <duration>22503</duration>
+    </story>
+  </stories>
+  <stepMatches/>
+</xref>

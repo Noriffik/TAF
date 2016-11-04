@@ -1,0 +1,42 @@
+<acceptance-test-run title="Test first launch" name="testFirstLaunch" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="22391" timestamp="2016-11-04T19:40:30.936+02:00" session-id="8bfc70ad4a2172585abfd6af16c8a5b4">
+  <user-story id="firstLaunch" name="First launch" path="smartHouse/stories/firstLaunch.story"/>
+  <tags>
+    <tag name="First launch" type="story"/>
+  </tags>
+  <test-group name="Given the user is on the smartHouse dashBoard page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="3a725050c41bad22f3e79fe583fef439.png"/>
+      <screenshot image="8b8d458fcd40d03fb46ad022539c74af.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="3844">
+      <screenshots>
+        <screenshot image="0b847767af0dff7f8ccbb7f1c0e0b17d.png"/>
+        <screenshot image="8b8d458fcd40d03fb46ad022539c74af.png"/>
+      </screenshots>
+      <description>Open dah board page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When the user clicks on devices tab" result="SUCCESS">
+    <screenshots>
+      <screenshot image="7146c2ccaa715781444e3b6914569d38.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="358">
+      <screenshots>
+        <screenshot image="fd5419af29cf4ad7299da1dff911e44f.png"/>
+      </screenshots>
+      <description>Click on devices tab</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then list of existing devices is opened on devices tab" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2a51c7e37a5ac8f4d5ab152bcfd8cab9.png"/>
+      <screenshot image="72601b1a877413f3d120f39983d6cec4.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="6935">
+      <screenshots>
+        <screenshot image="72601b1a877413f3d120f39983d6cec4.png"/>
+      </screenshots>
+      <description>Check devices list for presence</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

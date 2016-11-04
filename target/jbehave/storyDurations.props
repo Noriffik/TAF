@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Fri Nov 04 19:40:53 EET 2016
+threads=1
+total=22000
+smartHouse/stories/firstLaunch.story=22000
+threadAverage=22000

@@ -1,0 +1,7 @@
+<story path="smartHouse/stories/firstLaunch.story" title="">
+<scenario keyword="Scenario:" title="testFirstLaunch">
+<step outcome="successful">Given the user is on the smartHouse dashBoard page</step>
+<step outcome="successful">When the user clicks on devices tab</step>
+<step outcome="successful">Then list of existing devices is opened on devices tab</step>
+</scenario>
+</story>
