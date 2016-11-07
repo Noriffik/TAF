@@ -8,4 +8,5 @@ import smartHouse.artifacts.AbstractPage;
 public class DashBoardPage extends AbstractPage {
 
 public DashBoardPage(WebDriver driver){super(driver);}
+
 }

@@ -10,6 +10,7 @@ import static smartHouse.properties.CommonProperties.SMARTHOUSE_STORY_PATTERN;
 public class AcceptanceTestSuite extends SerenityStories {
 
     public AcceptanceTestSuite() {
+
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Pavlo_Derkach\\chromedriver\\chromedriver_win32\\chromedriver.exe");
 
         final String storiesPattern = System.getProperty(SMARTHOUSE_STORY_PATTERN);

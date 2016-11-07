@@ -12,7 +12,7 @@ public class DashBoardDefinitions {
 
     @Given("the user is on the smartHouse dashBoard page")
     public void openDashBoardPage() {
-        dashBoardSteps.openDahBoardPage();
+        dashBoardSteps.openDashBoardPage();
     }
 
     @When("the user clicks on devices tab")

@@ -10,5 +10,6 @@ import smartHouse.widgetsImpl.TopCommonWidgetImpl;
  */
 @ImplementedBy(TopCommonWidgetImpl.class)
 public interface TopCommonWidget extends AbstractWidget{
+
     WebElementFacade getDevicesTab();
 }

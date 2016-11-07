@@ -11,7 +11,7 @@ public class DashBoardSteps extends ScenarioSteps {
     DashBoardPage dashBoardPage;
 
     @Step
-    public void openDahBoardPage() {
+    public void openDashBoardPage() {
         dashBoardPage.open();
         log.info("We are on dashBoard page");
     }

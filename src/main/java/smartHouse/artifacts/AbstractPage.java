@@ -9,6 +9,7 @@ import smartHouse.widgets.TopCommonWidget;
  * Created by Pavlo_Derkach on 11/4/2016.
  */
 public abstract class AbstractPage extends PageObject {
+
     @FindBy(xpath = ".//nav[@class='main-nav']")
     TopCommonWidget topCommonWidget;
 
