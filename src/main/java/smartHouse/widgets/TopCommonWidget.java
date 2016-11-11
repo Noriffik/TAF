@@ -12,4 +12,6 @@ import smartHouse.widgetsImpl.TopCommonWidgetImpl;
 public interface TopCommonWidget extends AbstractWidget{
 
     WebElementFacade getDevicesTab();
+
+    WebElementFacade getLoginTab();
 }

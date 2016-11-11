@@ -8,7 +8,7 @@ import smartHouse.pages.DevicesPage;
 /**
  * Created by Pavlo_Derkach on 11/4/2016.
  */
-public class DashBoardStates {
+public class DashBoardPageStates {
     DevicesPage devicesPage;
 
     @Step

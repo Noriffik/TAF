@@ -1,4 +1,4 @@
-<acceptance-test-run title="Test first launch" name="testFirstLaunch" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="19221" timestamp="2016-11-10T17:08:46.840+02:00" session-id="88fd54dede7e438a21827bf5430d9c02">
+<acceptance-test-run title="Test first launch" name="testFirstLaunch" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="11734" timestamp="2016-11-11T19:35:38.296+02:00" session-id="de1359e2f702829af6ea03b2ad385596">
   <user-story id="firstLaunch" name="First launch" path="smartHouse/stories/firstLaunch.story"/>
   <tags>
     <tag name="First launch" type="story"/>
@@ -8,7 +8,7 @@
       <screenshot image="3a725050c41bad22f3e79fe583fef439.png"/>
       <screenshot image="0b847767af0dff7f8ccbb7f1c0e0b17d.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="12010">
+    <test-step result="SUCCESS" duration="4585">
       <screenshots>
         <screenshot image="0b847767af0dff7f8ccbb7f1c0e0b17d.png"/>
       </screenshots>
@@ -17,24 +17,22 @@
   </test-group>
   <test-group name="When the user clicks on devices tab" result="SUCCESS">
     <screenshots>
-      <screenshot image="8d9765f08a36f79ffa5294167b9fa098.png"/>
+      <screenshot image="ef25174cb16e9499aa473bfb90be3ef9.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="368">
+    <test-step result="SUCCESS" duration="357">
       <screenshots>
-        <screenshot image="b238d9eeb853401fcdad7b622e82a959.png"/>
+        <screenshot image="876d90ecc0953da4b6bd9b2ad23f4ac4.png"/>
       </screenshots>
       <description>Click on devices tab</description>
     </test-step>
   </test-group>
   <test-group name="Then list of existing devices is opened on devices tab" result="FAILURE">
     <screenshots>
-      <screenshot image="0a722cd63b113cd3dd1c72a81597682f.png"/>
-      <screenshot image="4d361be15db8f7661445632cd540af49.png" source="pagesource2989868414184563885.html.txt"/>
+      <screenshot image="a8f690eecacab7becb79be6f283a2c74.png" source="pagesource1551324687176078020.html.txt"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="2275">
+    <test-step result="SUCCESS" duration="2276">
       <screenshots>
-        <screenshot image="0a722cd63b113cd3dd1c72a81597682f.png"/>
-        <screenshot image="4d361be15db8f7661445632cd540af49.png"/>
+        <screenshot image="a8f690eecacab7becb79be6f283a2c74.png"/>
       </screenshots>
       <description>Check devices list for presence</description>
     </test-step>

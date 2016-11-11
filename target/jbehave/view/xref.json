@@ -1,5 +1,5 @@
 {"xref": {
-  "whenMade": 1478790547045,
+  "whenMade": 1478897344890,
   "createdBy": "JBehave",
   "metaFilter": "-ignore",
   "meta": [],
@@ -7,15 +7,15 @@
     {
       "description": "",
       "narrative": "",
-      "name": "firstLaunch.story",
-      "path": "smartHouse/stories/firstLaunch.story",
-      "html": "smartHouse.stories.firstLaunch.html",
+      "name": "login.story",
+      "path": "smartHouse/stories/login.story",
+      "html": "smartHouse.stories.login.html",
       "meta": "",
-      "scenarios": "Scenario:testFirstLaunch\nGiven the user is on the smartHouse dashBoard page\nWhen the user clicks on devices tab\nThen list of existing devices is opened on devices tab\n\n\n",
+      "scenarios": "Scenario:AC-1 Login screen\nGiven unregitered user is on default page of smart house site\nWhen user navigates to login page\nThen user sees a screen with the such elements: username (i.e. email) text field, password field, action button to submit credentials\n\n\nScenario:AC-2 Login (Happy Path)\nGiven user entered a valid <email> and <password> AND it's a valid employee ID\nWhen user clicks Submit button\nThen user is logged in\n\n\nScenario:AC-3 Submit (Rainy day - user does not exist)\nGiven user entered an invalid <email> and <password> (e.g. user does not exist)\nWhen user clicks Submit button\nThen error message shown\nAnd user remains on login page\n\n\n",
       "passed": false,
       "pending": false,
-      "started": 1478790526746,
-      "duration": 19397
+      "started": 1478897327511,
+      "duration": 16552
     }
   ],
   "stepMatches": []

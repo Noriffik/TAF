@@ -17,11 +17,18 @@ public class TopCommonWidgetImpl extends AbstractWidgetImpl implements TopCommon
     @FindBy(xpath = ".//a[@ng-reflect-router-link='/devices']")
     WebElementFacade devicesTab;
 
+    @FindBy(xpath = ".//a[@ng-reflect-router-link='/login']")
+    WebElementFacade loginTab;
+
     public TopCommonWidgetImpl(PageObject page, ElementLocator locator, WebElement webElement, long timeoutInMilliseconds) {
         super(page, locator, webElement, timeoutInMilliseconds);
     }
 
     public WebElementFacade getDevicesTab() {
         return devicesTab;
+    }
+
+    public WebElementFacade getLoginTab() {
+        return loginTab;
     }
 }

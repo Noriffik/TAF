@@ -20,4 +20,9 @@ public class DashBoardSteps extends ScenarioSteps {
         dashBoardPage.getTopCommonWidget().getDevicesTab().click();
         Logger.out.info("Devices tab was pressed");
     }
+
+    @Step
+    public void clickOnLoginTab() {
+        dashBoardPage.getTopCommonWidget().getLoginTab().click();
+    }
 }

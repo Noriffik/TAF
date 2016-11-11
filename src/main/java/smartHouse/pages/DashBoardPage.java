@@ -7,6 +7,8 @@ import smartHouse.artifacts.AbstractPage;
 @DefaultUrl("http://garage-it-smart-house.herokuapp.com")
 public class DashBoardPage extends AbstractPage {
 
-public DashBoardPage(WebDriver driver){super(driver);}
+    public DashBoardPage(WebDriver driver) {
+        super(driver);
+    }
 
 }

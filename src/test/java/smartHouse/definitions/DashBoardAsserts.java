@@ -3,7 +3,7 @@ package smartHouse.definitions;
 import net.thucydides.core.annotations.Steps;
 import org.jbehave.core.annotations.Then;
 import org.junit.Assert;
-import smartHouse.steps.DashBoardStates;
+import smartHouse.steps.DashBoardPageStates;
 
 /**
  * Created by Pavlo_Derkach on 11/4/2016.
@@ -11,7 +11,7 @@ import smartHouse.steps.DashBoardStates;
 public class DashBoardAsserts {
 
     @Steps
-    DashBoardStates dashBoardStates;
+    DashBoardPageStates dashBoardStates;
 
     @Then("list of existing devices is opened on devices tab")
     public void isListOfDevicesPresent() {
