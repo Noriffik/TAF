@@ -1,5 +1,5 @@
 {"xref": {
-  "whenMade": 1478281254219,
+  "whenMade": 1478790547045,
   "createdBy": "JBehave",
   "metaFilter": "-ignore",
   "meta": [],
@@ -12,10 +12,10 @@
       "html": "smartHouse.stories.firstLaunch.html",
       "meta": "",
       "scenarios": "Scenario:testFirstLaunch\nGiven the user is on the smartHouse dashBoard page\nWhen the user clicks on devices tab\nThen list of existing devices is opened on devices tab\n\n\n",
-      "passed": true,
+      "passed": false,
       "pending": false,
-      "started": 1478281230836,
-      "duration": 22503
+      "started": 1478790526746,
+      "duration": 19397
     }
   ],
   "stepMatches": []

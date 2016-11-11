@@ -1,5 +1,5 @@
 <xref>
-  <whenMade>1478281254219</whenMade>
+  <whenMade>1478790547045</whenMade>
   <createdBy>JBehave</createdBy>
   <metaFilter>-ignore</metaFilter>
   <meta/>
@@ -18,10 +18,10 @@ Then list of existing devices is opened on devices tab
 
 
 </scenarios>
-      <passed>true</passed>
+      <passed>false</passed>
       <pending>false</pending>
-      <started>1478281230836</started>
-      <duration>22503</duration>
+      <started>1478790526746</started>
+      <duration>19397</duration>
     </story>
   </stories>
   <stepMatches/>

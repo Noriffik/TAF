@@ -12,7 +12,15 @@
 <scenario keyword="Scenario:" title="testFirstLaunch">
 <step outcome="successful">Given the user is on the smartHouse dashBoard page</step>
 <step outcome="successful">When the user clicks on devices tab</step>
-<step outcome="successful">Then list of existing devices is opened on devices tab</step>
+<step outcome="failed" keyword="FAILED">Then list of existing devices is opened on devices tab<failure>java.lang.AssertionError: User isn`t on Devices tab or list of devices is null</failure></step>
+<failure>java.lang.AssertionError: User isn`t on Devices tab or list of devices is null
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at smartHouse.definitions.DashBoardAsserts.isListOfDevicesPresent(DashBoardAsserts.java:18)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:595)
+	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:566)
+...</failure>
 </scenario>
 </story>
 

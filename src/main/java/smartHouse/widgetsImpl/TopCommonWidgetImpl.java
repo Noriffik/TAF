@@ -14,7 +14,7 @@ import smartHouse.widgets.TopCommonWidget;
 
 public class TopCommonWidgetImpl extends AbstractWidgetImpl implements TopCommonWidget {
 
-    @FindBy(xpath = ".//a[@ng-reflect-router-link='devices']")
+    @FindBy(xpath = ".//a[@ng-reflect-router-link='/devices']")
     WebElementFacade devicesTab;
 
     public TopCommonWidgetImpl(PageObject page, ElementLocator locator, WebElement webElement, long timeoutInMilliseconds) {
